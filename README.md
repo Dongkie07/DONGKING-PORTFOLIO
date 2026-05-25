@@ -1,16 +1,45 @@
-# React + Vite
+# Dongking Signature Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A future-ready React + Vite portfolio for a technology professional. The design is built to stay clean even when more projects, certificates, seminars, competitions, awards, and gallery items are added later.
 
-Currently, two official plugins are available:
+## Run locally
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```bash
+npm install
+npm run dev
+```
 
-## React Compiler
+## Build for deployment
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm run build
+```
 
-## Expanding the ESLint configuration
+## Edit content
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Profile, name, role, email: `src/config/siteConfig.js`
+- Projects/systems: `src/data/projects.js`
+- Achievements: `src/data/achievements.js`
+- Trainings/seminars: `src/data/trainings.js`
+- Certificates/photos/gallery items: `src/data/galleryItems.js`
+- Main visual style: `src/styles/`
+
+## Add more projects
+
+Add a new object inside `src/data/projects.js`. The section automatically updates with filtering, balanced spacing, and responsive cards.
+
+## Add more certificates or gallery items
+
+Place images in `public/images/`, then add entries in `src/data/galleryItems.js`.
+
+Example:
+
+```js
+{
+  title: 'Certificate Title',
+  category: 'Certificate',
+  date: '2026',
+  image: '/images/my-certificate.jpg',
+  description: 'Short description of the certificate.'
+}
+```

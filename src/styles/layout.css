@@ -1,0 +1,15 @@
+.container { width: var(--container); margin-inline: auto; }
+.section { padding: 112px 0; position: relative; }
+.alt-section {
+  background: linear-gradient(180deg, rgba(255,255,255,.54), rgba(255,255,255,.28));
+  border-block: 1px solid rgba(31, 60, 136, .08);
+}
+.section-header { max-width: 820px; margin-bottom: 34px; }
+.section-description { font-size: 1.05rem; max-width: 760px; }
+.split-section { display: grid; grid-template-columns: minmax(0, 1.02fr) minmax(320px, .98fr); gap: clamp(32px, 6vw, 64px); align-items: center; }
+.adaptive-grid, .projects-grid, .achievement-grid, .skills-grid, .gallery-grid, .timeline-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 305px), 1fr));
+  gap: clamp(18px, 2.5vw, 26px);
+  align-items: stretch;
+}
