@@ -9,7 +9,7 @@ export function Achievements() {
         <SectionHeader
           eyebrow="Achievements"
           title="Recognitions, participation, leadership, and academic milestones."
-          description="Use this section for awards, organization work, project defenses, academic recognition, and other career highlights."
+          description="Use this section for awards, organization work, project defenses, academic recognition, and other proof of achievement."
         />
 
         <div className="achievement-grid adaptive-grid">

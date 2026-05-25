@@ -18,6 +18,6 @@ export const galleryItems = [
     category: 'Competition',
     date: 'Add Date',
     image: '/images/gallery-competition.svg',
-    description: 'Add competition photos, certificates, awarding moments, or documentation of participation.'
+    description: 'Add competition photos, certificates, awarding moments, or participation documentation.'
   }
 ];

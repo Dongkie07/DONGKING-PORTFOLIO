@@ -21,14 +21,14 @@ npm run build
 - Projects/systems: `src/data/projects.js`
 - Achievements: `src/data/achievements.js`
 - Trainings/seminars: `src/data/trainings.js`
-- Certificates/photos/gallery items: `src/data/galleryItems.js`
+- Certificates/photos/gallery: `src/data/galleryItems.js`
 - Main visual style: `src/styles/`
 
 ## Add more projects
 
 Add a new object inside `src/data/projects.js`. The section automatically updates with filtering, balanced spacing, and responsive cards.
 
-## Add more certificates or gallery items
+## Add more certificates or proof
 
 Place images in `public/images/`, then add entries in `src/data/galleryItems.js`.
 

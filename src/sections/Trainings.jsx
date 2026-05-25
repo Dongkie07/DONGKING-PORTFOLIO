@@ -9,7 +9,7 @@ export function Trainings() {
         <SectionHeader
           eyebrow="Trainings & Seminars"
           title="Learning experiences that support professional growth."
-          description="Add seminars, webinars, workshops, competitions, and conferences with dates, certificates, and event materials."
+          description="Add seminars, webinars, workshops, competitions, and conferences with dates, organizers, and supporting photos or certificates."
         />
 
         <div className="timeline-grid adaptive-grid">

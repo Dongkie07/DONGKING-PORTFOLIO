@@ -6,7 +6,7 @@ export function TrainingCard({ training, index }) {
       <h3>{training.title}</h3>
       <p className="organizer">{training.organizer}</p>
       <p className="clamped-text short-clamp">{training.description}</p>
-      <span className="record-note">Record: {training.record}</span>
+      <span className="reference-note">Reference: {training.proof}</span>
     </article>
   );
 }

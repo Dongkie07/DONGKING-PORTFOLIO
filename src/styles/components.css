@@ -35,6 +35,37 @@
   transition: .25s ease;
 }
 .nav-links a:hover { background: rgba(31,60,136,.08); color: var(--royal-blue); }
+.menu-toggle {
+  display: none;
+  width: 44px;
+  height: 44px;
+  flex: 0 0 auto;
+  place-items: center;
+  gap: 5px;
+  border: 1px solid rgba(31,60,136,.14);
+  border-radius: 999px;
+  background: rgba(255,255,255,.82);
+  box-shadow: 0 12px 28px rgba(31, 60, 136, .10);
+  cursor: pointer;
+  transition: transform .25s ease, background .25s ease, border-color .25s ease;
+}
+.menu-toggle:hover {
+  transform: translateY(-2px);
+  background: rgba(255,255,255,.96);
+  border-color: rgba(31,60,136,.24);
+}
+.menu-toggle span {
+  display: block;
+  width: 18px;
+  height: 2px;
+  border-radius: 999px;
+  background: var(--deep-navy);
+  transition: transform .25s ease, opacity .2s ease;
+}
+.navbar.is-menu-open .menu-toggle span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.navbar.is-menu-open .menu-toggle span:nth-child(2) { opacity: 0; }
+.navbar.is-menu-open .menu-toggle span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
 .eyebrow {
   margin-bottom: .8rem;
   text-transform: uppercase;
@@ -119,8 +150,8 @@
   min-height: 100%;
 }
 .skill-card, .achievement-card, .timeline-card { padding: 26px; }
-.card-label, .organizer, .record-note { color: var(--royal-blue); font-size: .84rem; font-weight: 900; }
-.record-note { display: inline-flex; margin-top: auto; padding-top: 14px; color: #667085; }
+.card-label, .organizer, .reference-note { color: var(--royal-blue); font-size: .84rem; font-weight: 900; }
+.reference-note { display: inline-flex; margin-top: auto; padding-top: 14px; color: #667085; }
 .clamped-text {
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -136,10 +167,3 @@
   background: rgba(255,255,255,.56);
 }
 .empty-state span { display: inline-grid; place-items: center; width: 52px; height: 52px; margin-bottom: 14px; color: white; border-radius: 18px; background: linear-gradient(135deg, var(--royal-blue), var(--deep-navy)); }
-
-.project-card h3, .achievement-card h3, .timeline-card h3, .gallery-card h3 {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  overflow: hidden;
-}

@@ -13,8 +13,8 @@ export function PortfolioGallery() {
       <div className="container">
         <SectionHeader
           eyebrow="Portfolio Gallery"
-          title="Certificates, screenshots, photos, and project highlights."
-          description="This gallery is future-ready: add certificates, awards, competition photos, presentation shots, and system screenshots while keeping the layout clean and consistent."
+          title="Certificates, project screenshots, event photos, and career highlights."
+          description="Add new certificates, awards, competition photos, presentation shots, and system screenshots anytime. The layout will keep the gallery balanced and professional."
         />
 
         <CollectionControls

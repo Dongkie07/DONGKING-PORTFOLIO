@@ -7,7 +7,7 @@ export function AchievementCard({ achievement, index }) {
       <p className="card-label">{achievement.type}</p>
       <h3>{achievement.title}</h3>
       <p className="clamped-text short-clamp">{achievement.description}</p>
-      <span className="record-note">Related materials: {achievement.materials}</span>
+      <span className="reference-note">Reference: {achievement.reference}</span>
     </article>
   );
 }

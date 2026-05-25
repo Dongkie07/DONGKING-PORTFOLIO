@@ -10,10 +10,10 @@ export const siteConfig = {
   profileImage: '/images/profile.jpg',
   professionalNote: 'Professional Technology Portfolio • 2026',
   heroEyebrow: 'Professional Portfolio',
-  heroHeadline: 'Designing polished systems with clarity, usability, and purpose.',
+  heroHeadline: 'Designing polished systems with clarity, function, and purpose.',
   heroDescription:
-    'I build and present web systems, dashboards, and technology-driven solutions with a focus on clean design, practical functionality, and professional project documentation.',
-  heroTags: ['System Developer', 'Web Systems', 'Dashboards', 'Project Gallery', 'Clean UI'],
+    'I build and document web systems, dashboards, and technology-driven solutions with a focus on clean design, practical functionality, and presentable project records.',
+  heroTags: ['System Developer', 'Web Systems', 'Dashboards', 'Portfolio Highlights', 'Clean UI'],
   navigationLinks: [
     { label: 'About', href: '#about' },
     { label: 'Skills', href: '#skills' },

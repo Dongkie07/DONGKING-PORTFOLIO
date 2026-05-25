@@ -5,7 +5,7 @@ export const trainings = [
     date: 'Ongoing',
     description:
       'Continuous practice in building interfaces, dashboards, database-backed systems, and clean portfolio-ready documentation.',
-    record: 'Project repositories and screenshots'
+    proof: 'Project repositories and screenshots'
   },
   {
     title: 'Seminar / Training Placeholder',
@@ -13,14 +13,14 @@ export const trainings = [
     date: 'Add date',
     description:
       'Add seminars, workshops, webinars, or trainings attended. The card layout is designed to remain clean even when more entries are added.',
-    record: 'Certificate or event photo'
+    proof: 'Certificate or event photo'
   },
   {
     title: 'Competition / Hackathon Experience',
     organizer: 'Replace with event name',
     date: 'Add date',
     description:
-      'Add competitions participated in, including awards or recognitions if available. If there is no award, participation still shows initiative, exposure, and growth.',
-    record: 'Certificate, photos, or official event material'
+      'Add competitions participated in, including awards or recognitions if available. If there is no award, participation still shows growth and initiative.',
+    proof: 'Certificate, photos, or official event material'
   }
 ];
