@@ -71,3 +71,85 @@
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: .01ms !important; }
   [data-reveal] { opacity: 1; transform: none; }
 }
+
+
+/* Balanced viewport fix: prevents oversized blank hero space when the site is viewed
+   on phone desktop-mode or at very low browser zoom levels. */
+.hero-section {
+  min-height: auto;
+  padding-top: clamp(96px, 9vw, 132px);
+  padding-bottom: clamp(76px, 8vw, 112px);
+}
+
+.hero-grid {
+  min-height: min(720px, calc(100svh - 160px));
+}
+
+@media (max-width: 1020px) {
+  .hero-section {
+    padding-top: 92px;
+    padding-bottom: 70px;
+  }
+
+  .hero-grid {
+    min-height: auto;
+    gap: 28px;
+  }
+}
+
+@media (max-width: 760px) {
+  :root { --container: min(100% - 24px, 1180px); }
+
+  .hero-section {
+    min-height: auto;
+    padding-top: 86px;
+    padding-bottom: 54px;
+  }
+
+  .hero-copy {
+    max-width: 100%;
+  }
+
+  .hero-description {
+    margin-bottom: 18px;
+  }
+
+  .hero-tags {
+    margin-bottom: 20px;
+  }
+
+  .portrait-stage {
+    width: min(310px, 82vw);
+  }
+
+  .section {
+    padding: 64px 0;
+  }
+}
+
+@media (max-width: 520px) {
+  h1 {
+    font-size: clamp(2.55rem, 13vw, 3.7rem);
+    line-height: .92;
+  }
+
+  .hero-section {
+    padding-top: 78px;
+    padding-bottom: 46px;
+  }
+
+  .portrait-stage {
+    width: min(280px, 86vw);
+  }
+}
+
+@media (min-width: 1200px) and (max-height: 720px) {
+  .hero-section {
+    padding-top: 92px;
+    padding-bottom: 76px;
+  }
+
+  .hero-grid {
+    min-height: auto;
+  }
+}

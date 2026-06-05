@@ -18,7 +18,6 @@ export const siteConfig = {
     { label: 'About', href: '#about' },
     { label: 'Skills', href: '#skills' },
     { label: 'Projects', href: '#projects' },
-    { label: 'Capstone', href: '#capstone' },
     { label: 'Achievements', href: '#achievements' },
     { label: 'Gallery', href: '#gallery' },
     { label: 'Contact', href: '#contact' }
