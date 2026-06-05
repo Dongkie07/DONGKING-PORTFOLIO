@@ -27,3 +27,20 @@
   mask-image: radial-gradient(circle at 50% 34%, black, transparent 72%);
   animation: pulseLine 4.5s ease-in-out infinite;
 }
+
+@keyframes driftGlow {
+  0%, 100% { transform: translate3d(-2%, 0, 0) scale(1); opacity: .68; }
+  50% { transform: translate3d(6%, -4%, 0) scale(1.08); opacity: .92; }
+}
+@keyframes softSweep {
+  0% { transform: translateX(-130%) rotate(12deg); }
+  100% { transform: translateX(130%) rotate(12deg); }
+}
+@keyframes gentleFloat {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-10px) rotate(.45deg); }
+}
+@keyframes numberGlow {
+  0%, 100% { text-shadow: 0 0 0 rgba(6, 77, 43, 0); }
+  50% { text-shadow: 0 14px 34px rgba(6, 77, 43, .18); }
+}

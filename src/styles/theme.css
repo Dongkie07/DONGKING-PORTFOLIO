@@ -22,3 +22,9 @@
   --cursor-x: 50vw;
   --cursor-y: 50vh;
 }
+
+:root {
+  --campus-green: #064d2b;
+  --campus-gold: #d4a43a;
+  --restack-violet: #40208a;
+}

@@ -7,9 +7,9 @@ export function Contact() {
     <section className="section contact-section" id="contact">
       <div className="container contact-card" data-reveal>
         <p className="eyebrow">Contact</p>
-        <h2>Let’s connect and build something worth showing.</h2>
+        <h2>Open to IT opportunities, collaboration, and project discussions.</h2>
         <p>
-          For collaborations, project inquiries, academic documentation, or portfolio review, reach me through my contact links below.
+          For employment opportunities, project inquiries, or professional connections, you may reach me through the links below.
         </p>
 
         <div className="contact-actions">

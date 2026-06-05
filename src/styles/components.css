@@ -167,3 +167,19 @@
   background: rgba(255,255,255,.56);
 }
 .empty-state span { display: inline-grid; place-items: center; width: 52px; height: 52px; margin-bottom: 14px; color: white; border-radius: 18px; background: linear-gradient(135deg, var(--royal-blue), var(--deep-navy)); }
+
+.project-card:first-child .project-category,
+.gallery-image-wrap span {
+  background: linear-gradient(135deg, var(--campus-green), var(--deep-navy));
+}
+.project-card:first-child .project-status {
+  background: linear-gradient(135deg, var(--restack-violet), var(--royal-blue));
+}
+.premium-card:hover,
+.project-card:hover,
+.gallery-card:hover,
+.achievement-card:hover,
+.timeline-card:hover {
+  border-color: rgba(6, 77, 43, .20);
+  box-shadow: var(--shadow-strong);
+}

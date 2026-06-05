@@ -12,9 +12,9 @@ export function PortfolioGallery() {
     <section className="section alt-section" id="gallery">
       <div className="container">
         <SectionHeader
-          eyebrow="Portfolio Gallery"
-          title="Certificates, project screenshots, event photos, and career highlights."
-          description="Add new certificates, awards, competition photos, presentation shots, and system screenshots anytime. The layout will keep the gallery balanced and professional."
+          eyebrow="Gallery"
+          title="Certificates, project photos, and capstone documentation."
+          description="A curated collection of project milestones, verified technical credentials, and professional development activities arranged for quick review."
         />
 
         <CollectionControls
@@ -31,7 +31,7 @@ export function PortfolioGallery() {
             ))}
           </div>
         ) : (
-          <EmptyState message="Add an item in src/data/galleryItems.js and it will appear here automatically." />
+          <EmptyState message="No gallery items are available for this category yet." />
         )}
       </div>
     </section>

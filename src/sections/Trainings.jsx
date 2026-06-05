@@ -7,9 +7,9 @@ export function Trainings() {
     <section className="section" id="trainings">
       <div className="container">
         <SectionHeader
-          eyebrow="Trainings & Seminars"
-          title="Learning experiences that support professional growth."
-          description="Add seminars, webinars, workshops, competitions, and conferences with dates, organizers, and supporting photos or certificates."
+          eyebrow="Credentials & Training"
+          title="Certifications and professional development."
+          description="Technical credentials and seminars that strengthened my foundation in data analytics, data science, workplace readiness, and professional communication."
         />
 
         <div className="timeline-grid adaptive-grid">

@@ -43,3 +43,21 @@ Example:
   description: 'Short description of the certificate.'
 }
 ```
+
+## Portfolio Update Notes
+
+This version adds the uploaded capstone and certificate evidence in the most portfolio-appropriate locations:
+
+- `Projects` now prioritizes **Restack Vulnerability Scanner** as a deployed and exhibited cybersecurity capstone.
+- New `Capstone` section highlights booth documentation, deployment completion photo, and project exhibit certificate together.
+- `Achievements` now separates project recognition, technical learning, and professional growth.
+- `Trainings & Seminars` now lists the Cisco/DICT data certificates first, followed by non-technical student-development certificates.
+- `Portfolio Gallery` now contains all uploaded certificates/photos with categories: Capstone, Certificate, Training, and Professional Growth.
+- Certificate PDFs were added under `public/certificates/`; enhanced web images were added under `public/images/portfolio/`.
+
+Run locally:
+
+```bash
+npm install
+npm run dev
+```

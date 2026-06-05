@@ -12,26 +12,26 @@ export function EvidenceGallery() {
     <section className="section alt-section" id="evidence">
       <div className="container">
         <SectionHeader
-          eyebrow="Evidence Gallery"
-          title="Certificates, screenshots, photos, and proof of work."
-          description="This gallery is future-ready: add certificates, awards, competition photos, presentation shots, and system screenshots while maintaining a clean and consistent layout."
+          eyebrow="Documentation"
+          title="Certificates, screenshots, project records, and participation photos."
+          description="A flexible section for organizing important files and images connected to projects, seminars, competitions, and academic milestones."
         />
 
         <CollectionControls
           categories={categories}
           activeCategory={activeCategory}
           onChange={setActiveCategory}
-          label="Filter evidence"
+          label="Filter documentation"
         />
 
         {filteredItems.length > 0 ? (
           <div className="evidence-grid adaptive-grid">
             {filteredItems.map((item, index) => (
-              <EvidenceCard key={`${item.title}-${item.date}`} item={item} index={index} />
+              <EvidenceCard key={`${item.title}-${index}`} item={item} index={index} />
             ))}
           </div>
         ) : (
-          <EmptyState message="Add an item in src/data/evidenceItems.js and it will appear here automatically." />
+          <EmptyState message="No documentation items are available for this category yet." />
         )}
       </div>
     </section>

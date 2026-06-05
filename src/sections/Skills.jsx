@@ -7,9 +7,9 @@ export function Skills() {
     <section className="section alt-section" id="skills">
       <div className="container">
         <SectionHeader
-          eyebrow="Skills"
-          title="Technical and professional skills organized by focus area."
-          description="Skill groups are presented clearly through badges to keep the section readable and easy to update."
+          eyebrow="Core Skills"
+          title="Technical and professional capabilities."
+          description="A focused overview of the tools, development areas, and workplace strengths I can bring to system development and IT-related roles."
         />
 
         <div className="skills-grid adaptive-grid">

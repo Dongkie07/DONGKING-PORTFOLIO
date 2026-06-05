@@ -8,8 +8,12 @@ export const skillGroups = [
     skills: ['Laravel', 'PHP', 'MySQL', 'REST Concepts', 'Authentication', 'CRUD Systems']
   },
   {
+    category: 'Cybersecurity & Analytics',
+    skills: ['Vulnerability Scanning', 'Scanner Output Processing', 'Data Analytics', 'Dashboard Reporting']
+  },
+  {
     category: 'Tools & Workflow',
-    skills: ['GitHub', 'VS Code', 'MySQL Workbench', 'Figma', 'Documentation', 'Local Deployment']
+    skills: ['GitHub', 'VS Code', 'MySQL Workbench', 'Figma', 'Technical Documentation', 'Local Deployment']
   },
   {
     category: 'Professional Strengths',

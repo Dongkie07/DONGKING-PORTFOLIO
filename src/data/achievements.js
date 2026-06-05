@@ -1,30 +1,44 @@
 export const achievements = [
   {
-    title: 'Professional Portfolio Development',
+    title: 'Restack Capstone Project Exhibit 2026',
+    type: 'Project Recognition',
+    description:
+      'Presented Restack during the BSIT and BSIS Capstone Project Exhibit 2026, showcasing the system’s cybersecurity and analytics-focused implementation.',
+    reference: 'Project exhibit certificate, June 1, 2026'
+  },
+  {
+    title: 'Restack Deployment and Completion',
+    type: 'Technical Milestone',
+    description:
+      'Completed the presentation, deployment, and implementation of the Restack capstone system with evaluator/user acknowledgment.',
+    reference: 'Certificate of Completion, May 6, 2026'
+  },
+  {
+    title: 'Restack Capstone Defense Journey',
     type: 'Academic Milestone',
     description:
-      'Developed a professional portfolio to present systems, achievements, trainings, seminars, competitions, and documented accomplishments in one organized platform.',
-    reference: 'Portfolio website, project records, and formal documentation'
+      'Completed the project’s major defense stages, including title defense, outline defense, pre-deployment defense, and final defense.',
+    reference: 'Capstone defense documentation, 2026'
   },
   {
-    title: 'Systems Development Experience',
-    type: 'Technical Achievement',
+    title: 'Data Analytics Essentials',
+    type: 'Verified Technical Credential',
     description:
-      'Developed and documented web-based systems that demonstrate database management, dashboard design, local deployment, and practical software development skills.',
-    reference: 'Screenshots, source code, demo videos, and deployment notes'
+      'Completed Cisco Networking Academy training through the DICT-ITU DTC Initiative, strengthening data analysis and interpretation skills.',
+    reference: 'Cisco Networking Academy certificate and badge, March 30, 2026'
   },
   {
-    title: 'Project Presentation and Defense Experience',
-    type: 'Presentation Achievement',
+    title: 'Data Science Essentials with Python',
+    type: 'Verified Technical Credential',
     description:
-      'Presented system features, problem-solution alignment, methodology, and technical implementation in academic settings.',
-    reference: 'Presentation files, project documentation, and defense materials'
+      'Completed Cisco Networking Academy training through the DICT-ITU DTC Initiative, supporting Python-based data preparation and analysis.',
+    reference: 'Cisco Networking Academy certificate and badge, May 5, 2026'
   },
   {
-    title: 'Organization and Leadership Participation',
-    type: 'Leadership / Participation',
+    title: 'Professional Development Activities',
+    type: 'Professional Growth',
     description:
-      'Participated in academic and organization-related activities involving planning, documentation, coordination, and formal proposal development.',
-    reference: 'Activity proposals, event photos, and documentation files'
+      'Participated in student development activities related to wellness awareness, internship preparation, and workplace readiness.',
+    reference: 'Certificates of Participation, 2025'
   }
 ];

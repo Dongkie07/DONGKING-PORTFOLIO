@@ -1,23 +1,23 @@
 export const evidenceItems = [
   {
-    title: 'Certificate of Participation',
+    title: 'Certificates',
     category: 'Certificate',
-    date: 'Add Date',
+    description: 'Add academic, technical, seminar, and participation certificates that support your professional profile.',
     image: '/images/evidence-certificate.svg',
-    description: 'Replace this placeholder with your actual certificate image and update the title, date, and description.'
+    link: '#'
   },
   {
-    title: 'Seminar or Training Evidence',
-    category: 'Training',
-    date: 'Add Date',
+    title: 'Seminars and Workshops',
+    category: 'Seminar',
+    description: 'Add photos and certificates from seminars, workshops, webinars, and professional development activities.',
     image: '/images/evidence-seminar.svg',
-    description: 'Upload seminar screenshots, training photos, or official certificates here.'
+    link: '#'
   },
   {
-    title: 'Competition or Award Evidence',
+    title: 'Competitions and Events',
     category: 'Competition',
-    date: 'Add Date',
+    description: 'Add competition photos, certificates, awards, or participation records from academic and technical events.',
     image: '/images/evidence-competition.svg',
-    description: 'Add competition photos, certificates, awarding evidence, or documentation of participation.'
+    link: '#'
   }
 ];
