@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: 'Romel C. Cadungon',
-  nickname: 'Dongkie',
+  nickname: 'Romel',
   role: 'Information Technology Graduate • System Developer • Data Analytics Learner',
   location: 'Philippines',
   email: 'cadungonromel@gmail.com',
