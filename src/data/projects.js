@@ -34,18 +34,5 @@ export const projects = [
     liveUrl: '',
     demoVideoUrl: '/videos/ippdd-executive-dashboard-demo.mp4'
   },
-  {
-    title: 'Urbex Civic Platform',
-    category: 'Hackathon Project',
-    status: 'Prototype',
-    period: 'Hackathon Build',
-    description:
-      'A civic technology project focused on urban inequality reporting, community insights, and action-oriented user flows for public issue awareness.',
-    highlights: ['Civic reporting', 'Responsive UI', 'User profile', 'Interactive dashboard'],
-    techStack: ['React', 'Vite', 'Tailwind', 'UI/UX'],
-    image: '/images/project-urbex.svg',
-    githubUrl: '#',
-    liveUrl: '#',
-    demoVideoUrl: ''
-  }
+  
 ];
