@@ -1,26 +1,25 @@
-import { SectionHeader } from '../components/SectionHeader.jsx';
+import { HeroWorkstation } from '../components/HeroWorkstation.jsx';
 import { siteConfig } from '../config/siteConfig.js';
 
 export function About() {
   return (
-    <section className="section" id="about">
-      <div className="container split-section">
-        <SectionHeader
-          eyebrow="About Me"
-          title="I enjoy exploring how systems, security, and data can solve real-world problems."
-          description="This portfolio presents my technical background, capstone work, training credentials, and selected academic milestones."
-        />
+    <section className="section about-section" id="about">
+      <div className="container about-workstation-grid about-workstation-grid--reversed">
+        <HeroWorkstation />
 
-        <div className="about-panel premium-card" data-reveal>
-          <p>
-            I am {siteConfig.name}, an Information Technology graduate with experience in web-based system development, database-driven applications, interface design, and technical project documentation.
-          </p>
-          <p>
-            My work focuses on building usable systems, organizing project requirements, preparing dashboards and reports, and presenting outputs clearly for users, advisers, panelists, and future employers.
-          </p>
-          <p>
-            This portfolio highlights my development skills, capstone project experience, verified training credentials, and professional growth activities as I prepare for opportunities in the IT industry.
-          </p>
+        <div className="about-copy-stack" data-reveal>
+          <div className="about-panel premium-card">
+            <span className="about-panel-label">About Me</span>
+            <p>
+              I am {siteConfig.name}, an Information Technology graduate with hands-on experience in remote administrative work, data organization, and practical web-based system development.
+            </p>
+            <p>
+              My work includes calendar and email coordination, CRM tasks, applicant screening, spreadsheet reporting, dashboard preparation, technical documentation, and project presentation support.
+            </p>
+            <p>
+              This portfolio highlights both my admin and IT background, including system projects, deployment records, demo materials, verified training credentials, and organized project documentation.
+            </p>
+          </div>
         </div>
       </div>
     </section>

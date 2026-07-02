@@ -8,8 +8,8 @@ export function Trainings() {
       <div className="container">
         <SectionHeader
           eyebrow="Credentials & Training"
-          title="Certifications and professional development."
-          description="Technical credentials and seminars that strengthened my foundation in data analytics, data science, workplace readiness, and professional communication."
+          title="Certificates and training I completed."
+          description="Training and seminars that helped me build skills in data analytics, data science, workplace readiness, and communication."
         />
 
         <div className="timeline-grid adaptive-grid">

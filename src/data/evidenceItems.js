@@ -2,14 +2,14 @@ export const evidenceItems = [
   {
     title: 'Certificates',
     category: 'Certificate',
-    description: 'Add academic, technical, seminar, and participation certificates that support your professional profile.',
+    description: 'Add academic, technical, seminar, and participation certificates here.',
     image: '/images/evidence-certificate.svg',
     link: '#'
   },
   {
     title: 'Seminars and Workshops',
     category: 'Seminar',
-    description: 'Add photos and certificates from seminars, workshops, webinars, and professional development activities.',
+    description: 'Add photos and certificates from seminars, workshops, webinars, and development activities.',
     image: '/images/evidence-seminar.svg',
     link: '#'
   },

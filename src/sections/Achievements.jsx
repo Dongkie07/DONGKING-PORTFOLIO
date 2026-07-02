@@ -8,8 +8,8 @@ export function Achievements() {
       <div className="container">
         <SectionHeader
           eyebrow="Achievements"
-          title="Recognitions, certifications, and professional development."
-          description="This section brings together technical training, capstone recognition, and selected participation records that support my readiness for professional IT work."
+          title="Certificates, milestones, and activities."
+          description="A simple record of my technical training, capstone work, and student development activities."
         />
 
         <div className="achievement-grid adaptive-grid">

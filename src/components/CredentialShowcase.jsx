@@ -11,9 +11,9 @@ export function CredentialShowcase({ items }) {
     <div className="credential-showcase" data-reveal>
       <div className="credential-showcase-header">
         <p className="eyebrow">Verified Credentials</p>
-        <h3>Technical certificates with digital badge verification.</h3>
+        <h3>Technical certificates with badge verification.</h3>
         <p>
-          These credentials are presented in a rotating showcase so recruiters can quickly review the certificate, badge, issuer, and verification link.
+          This section shows the certificate, badge, issuer, and verification link in one place.
         </p>
       </div>
 

@@ -16,7 +16,7 @@
   box-shadow: var(--shadow-soft);
 }
 .brand, .nav-links { display: flex; align-items: center; gap: 10px; }
-.brand { font-weight: 900; color: var(--deep-navy); letter-spacing: -.02em; }
+.brand { font-weight: 900; color: var(--deep-navy); letter-spacing: 0; }
 .brand-mark {
   width: 38px;
   height: 38px;
@@ -135,8 +135,17 @@
 .button-link.is-disabled { opacity: .42; cursor: not-allowed; transform: none; }
 .filter-pill { color: var(--deep-navy); background: rgba(255,255,255,.72); border-color: rgba(31, 60, 136, .12); }
 .collection-controls { margin: -8px 0 26px; }
-.icon { font-size: .9em; font-weight: 900; line-height: 1; }
-.premium-card, .project-card, .skill-card, .achievement-card, .timeline-card, .gallery-card, .about-panel, .contact-card {
+.icon {
+  min-width: 1.55em;
+  display: inline-grid;
+  place-items: center;
+  font-size: .72em;
+  font-weight: 950;
+  line-height: 1;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+.premium-card, .project-card, .skill-card, .achievement-card, .timeline-card, .gallery-card, .about-panel, .contact-card, .experience-card {
   border: 1px solid rgba(255,255,255,.72);
   background: var(--glass);
   backdrop-filter: blur(18px);
@@ -179,7 +188,8 @@
 .project-card:hover,
 .gallery-card:hover,
 .achievement-card:hover,
-.timeline-card:hover {
+.timeline-card:hover,
+.experience-card:hover {
   border-color: rgba(6, 77, 43, .20);
   box-shadow: var(--shadow-strong);
 }

@@ -1,22 +1,26 @@
 export const skillGroups = [
   {
-    category: 'Frontend Development',
-    skills: ['React', 'Vue', 'Vite', 'JavaScript', 'HTML', 'CSS', 'Responsive UI']
+    category: 'Administrative & Operations',
+    skills: ['Calendar Management', 'Email Support', 'Documentation', 'Recruitment Screening', 'Confidential Records', 'Remote Work']
   },
   {
-    category: 'Backend & Database',
-    skills: ['Laravel', 'PHP', 'MySQL', 'REST Concepts', 'Authentication', 'CRUD Systems']
+    category: 'CRM, Reporting & Data',
+    skills: ['GoHighLevel', 'Wizehire', 'KPI Reporting', 'Data Entry', 'Spreadsheet Tracking', 'Looker Studio']
   },
   {
-    category: 'Cybersecurity & Analytics',
-    skills: ['Vulnerability Scanning', 'Scanner Output Processing', 'Data Analytics', 'Dashboard Reporting']
+    category: 'IT Support & Troubleshooting',
+    skills: ['Hardware Servicing', 'Computer Lab Support', 'LAN Setup', 'Technical Support', 'Problem Diagnosis']
   },
   {
-    category: 'Tools & Workflow',
-    skills: ['GitHub', 'VS Code', 'MySQL Workbench', 'Figma', 'Technical Documentation', 'Local Deployment']
+    category: 'Web & Systems Development',
+    skills: ['Laravel', 'Vue.js', 'React', 'JavaScript', 'MySQL', 'Dashboard Interfaces']
+  },
+  {
+    category: 'Technical Tools',
+    skills: ['Google Workspace', 'Microsoft Office', 'Microsoft Excel', 'GitHub', 'VS Code', 'Figma']
   },
   {
     category: 'Professional Strengths',
-    skills: ['Problem Solving', 'Team Collaboration', 'System Analysis', 'Presentation', 'UI/UX Awareness']
+    skills: ['Problem Solving', 'Analytical Thinking', 'Attention to Detail', 'Time Management', 'Team Collaboration', 'Presentation']
   }
 ];

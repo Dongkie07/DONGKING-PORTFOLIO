@@ -6,6 +6,7 @@ import { hasValidLink } from '../utils/linkHelpers.js';
 export function ProjectCard({ project, index }) {
   const animationDelay = `${index * 70}ms`;
   const visibleHighlights = project.highlights.slice(0, 4);
+  const codeUrl = project.frontendUrl || project.githubUrl;
 
   return (
     <article className="project-card premium-card" data-reveal style={{ transitionDelay: animationDelay }}>
@@ -35,14 +36,8 @@ export function ProjectCard({ project, index }) {
         </div>
 
         <div className="project-actions">
-          <ButtonLink href={project.liveUrl} disabled={!hasValidLink(project.liveUrl)}>
-            Live Demo <Icon name="arrow" />
-          </ButtonLink>
-          <ButtonLink href={project.githubUrl} variant="secondary" disabled={!hasValidLink(project.githubUrl)}>
-            Code <Icon name="code" />
-          </ButtonLink>
-          <ButtonLink href={project.demoVideoUrl} variant="ghost" disabled={!hasValidLink(project.demoVideoUrl)}>
-            Demo Video <Icon name="play" />
+          <ButtonLink href={codeUrl} variant="secondary" disabled={!hasValidLink(codeUrl)}>
+            Source Code <Icon name="code" />
           </ButtonLink>
         </div>
       </div>

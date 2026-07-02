@@ -1,14 +1,16 @@
 const icons = {
-  arrow: '↗',
+  arrow: '>',
+  briefcase: '+',
   code: '</>',
-  mail: '✉',
-  play: '▶',
-  pin: '⌖',
-  spark: '✦',
-  trophy: '◆',
-  check: '✓'
+  download: 'PDF',
+  mail: '@',
+  play: '>',
+  pin: '+',
+  spark: '*',
+  trophy: '*',
+  check: '+'
 };
 
 export function Icon({ name, className = '' }) {
-  return <span className={`icon ${className}`}>{icons[name] || icons.spark}</span>;
+  return <span className={`icon ${className}`} aria-hidden="true">{icons[name] || icons.spark}</span>;
 }

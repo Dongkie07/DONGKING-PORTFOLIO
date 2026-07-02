@@ -3,16 +3,16 @@ import { ButtonLink } from '../components/ButtonLink.jsx';
 import { Icon } from '../components/Icon.jsx';
 
 const capstoneHighlights = [
-  'Integrated open-source vulnerability scanners into one project workflow',
-  'Processed scanner outputs into structured and readable security findings',
-  'Presented analytics-ready results through a dashboard interface',
-  'Completed major capstone stages from defense presentations to deployment and exhibit presentation'
+  'Combined open-source vulnerability scanners in one workflow',
+  'Organized scanner results into clearer security findings',
+  'Showed the results through an analytics dashboard',
+  'Completed the major capstone stages, from defenses to deployment and exhibit presentation'
 ];
 
 const capstoneStats = [
-  { value: '2026', label: 'Exhibit and deployment year' },
+  { value: '2026', label: 'Exhibit and deployment' },
   { value: '4', label: 'Team members recognized' },
-  { value: '8+', label: 'Milestones documented' }
+  { value: '8+', label: 'Project milestones' }
 ];
 
 export function CapstoneSpotlight() {
@@ -21,9 +21,9 @@ export function CapstoneSpotlight() {
       <div className="container capstone-shell">
         <div className="capstone-copy" data-reveal>
           <p className="eyebrow">Featured Capstone Project</p>
-          <h2>Restack: Open-source vulnerability scanning with data analytics.</h2>
+          <h2>Restack: a vulnerability scanning project with analytics.</h2>
           <p>
-            Restack is the strongest project in this portfolio because it combines system development, cybersecurity, data processing, dashboard presentation, deployment, and formal academic presentation.
+            Restack is my main capstone project. It brings together cybersecurity, data processing, dashboards, deployment, and project presentation.
           </p>
 
           <div className="badge-list capstone-badges">

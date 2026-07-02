@@ -1,4 +1,4 @@
-export function EmptyState({ title = 'Nothing to show yet', message = 'Add new items in the data file and this section will update automatically.' }) {
+export function EmptyState({ title = 'Nothing to show yet', message = 'Add new items in the data file and this section will update.' }) {
   return (
     <div className="empty-state" data-reveal>
       <span>✦</span>

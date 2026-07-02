@@ -8,8 +8,8 @@ export function DefenseJourney() {
       <div className="container">
         <SectionHeader
           eyebrow="Capstone Journey"
-          title="A structured record of Restack from proposal to final defense."
-          description="These photos show the project progression through formal academic checkpoints, system presentation, deployment readiness, and final evaluation."
+          title="Restack journey from proposal to final defense."
+          description="These photos show how the project moved through planning, defense presentations, deployment preparation, and final evaluation."
         />
 
         <div className="defense-feature" data-reveal>
@@ -19,9 +19,9 @@ export function DefenseJourney() {
           </div>
           <div className="defense-feature-copy">
             <p className="eyebrow">Project Presentation</p>
-            <h3>Restack was presented, evaluated, refined, deployed, and exhibited.</h3>
+            <h3>Restack went through defense, revisions, deployment, and exhibit presentation.</h3>
             <p>
-              The final defense is highlighted as a major academic milestone, while the supporting photos below present the full development journey in chronological order.
+              The final defense was one of the biggest milestones. The photos below show the project journey in order.
             </p>
             <div className="badge-list">
               <Badge>Title Defense</Badge>

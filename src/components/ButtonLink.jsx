@@ -6,7 +6,7 @@ export function ButtonLink({ href, children, variant = 'primary', disabled = fal
   }
 
   return (
-    <a className={className} href={href} target={href?.startsWith('#') ? '_self' : '_blank'} rel="noreferrer">
+    <a className={className} href={href} target={href?.startsWith('#') || href?.startsWith('mailto:') ? '_self' : '_blank'} rel="noreferrer">
       {children}
     </a>
   );

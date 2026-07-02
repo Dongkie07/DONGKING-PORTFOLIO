@@ -8,8 +8,8 @@ export function Skills() {
       <div className="container">
         <SectionHeader
           eyebrow="Core Skills"
-          title="Technical and professional capabilities."
-          description="A focused overview of the tools, development areas, and workplace strengths I can bring to system development and IT-related roles."
+          title="Tools and skills I use in actual work."
+          description="A practical mix of admin, CRM, reporting, data, IT support, and web development skills."
         />
 
         <div className="skills-grid adaptive-grid">

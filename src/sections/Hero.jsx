@@ -7,10 +7,8 @@ export function Hero() {
   return (
     <section className="hero-section" id="home">
       <div className="hero-background" aria-hidden="true">
-        <span className="orb orb-one" />
-        <span className="orb orb-two" />
-        <span className="orb orb-three" />
         <span className="grid-glow" />
+        <span className="hero-sheen" />
       </div>
 
       <div className="container hero-grid">
@@ -25,21 +23,22 @@ export function Hero() {
           </div>
 
           <div className="hero-actions">
-            <ButtonLink href="#projects">View Projects <Icon name="arrow" /></ButtonLink>
-            <ButtonLink href="#gallery" variant="secondary">View Gallery <Icon name="spark" /></ButtonLink>
+            <ButtonLink href="#experience">View Experience <Icon name="briefcase" /></ButtonLink>
+            <ButtonLink href="#projects" variant="secondary">View Projects <Icon name="arrow" /></ButtonLink>
+            <ButtonLink href={siteConfig.resumeUrl} variant="ghost">Resume <Icon name="download" /></ButtonLink>
           </div>
         </div>
 
-        <div className="portrait-stage" data-reveal>
+        <aside className="portrait-stage" data-reveal aria-label="Profile photo of Romel Cadungon">
           <div className="portrait-frame" aria-hidden="true" />
           <div className="portrait-card">
-            <img src={siteConfig.profileImage} alt={`${siteConfig.name} formal portrait`} />
+            <img src={siteConfig.profileImage} alt={`${siteConfig.name} profile`} />
+            <div className="portrait-caption">
+              <span>{siteConfig.name}</span>
+              <small>{siteConfig.role}</small>
+            </div>
           </div>
-          <div className="portrait-caption">
-            <span>{siteConfig.name}</span>
-            <small>{siteConfig.role}</small>
-          </div>
-        </div>
+        </aside>
       </div>
     </section>
   );

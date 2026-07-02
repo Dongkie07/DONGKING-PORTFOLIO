@@ -5,7 +5,7 @@ export const defenseMilestones = [
     date: 'Capstone Milestone',
     image: '/images/portfolio/restack-title-defense.jpg',
     description:
-      'Initial presentation of the Restack concept, scope, objectives, and proposed direction before the panel.'
+      'Initial presentation of the Restack concept, scope, objectives, and proposed direction to the panel.'
   },
   {
     title: 'Outline Defense',
@@ -13,7 +13,7 @@ export const defenseMilestones = [
     date: 'Capstone Milestone',
     image: '/images/portfolio/restack-outline-defense.jpg',
     description:
-      'Presented the project outline, workflow, system direction, and analytics/dashboard plan for validation.'
+      'Presented the project outline, workflow, system direction, and analytics dashboard plan for review.'
   },
   {
     title: 'Pre-Deployment Defense',
@@ -21,7 +21,7 @@ export const defenseMilestones = [
     date: 'Capstone Milestone',
     image: '/images/portfolio/restack-pre-deployment-defense.jpg',
     description:
-      'Presented the system before actual deployment, focusing on readiness, interface flow, and implementation details.'
+      'Presented the system before deployment, focusing on readiness, interface flow, and implementation details.'
   },
   {
     title: 'Final Defense',

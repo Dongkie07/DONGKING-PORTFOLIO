@@ -13,8 +13,8 @@ export function EvidenceGallery() {
       <div className="container">
         <SectionHeader
           eyebrow="Documentation"
-          title="Certificates, screenshots, project records, and participation photos."
-          description="A flexible section for organizing important files and images connected to projects, seminars, competitions, and academic milestones."
+          title="Files and records from my projects and activities."
+          description="This section keeps important certificates, project records, seminar files, and academic documentation in one place."
         />
 
         <CollectionControls

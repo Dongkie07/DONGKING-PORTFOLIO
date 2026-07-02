@@ -13,8 +13,8 @@ export function PortfolioGallery() {
       <div className="container">
         <SectionHeader
           eyebrow="Gallery"
-          title="Certificates, project photos, and capstone documentation."
-          description="A curated collection of project milestones, verified technical credentials, and professional development activities arranged for quick review."
+          title="Project photos, certificates, and capstone records."
+          description="Photos and certificates from my projects, training, and capstone milestones."
         />
 
         <CollectionControls
@@ -31,7 +31,7 @@ export function PortfolioGallery() {
             ))}
           </div>
         ) : (
-          <EmptyState message="No gallery items are available for this category yet." />
+          <EmptyState message="No gallery items in this category yet." />
         )}
       </div>
     </section>

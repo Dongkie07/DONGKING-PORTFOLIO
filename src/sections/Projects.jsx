@@ -8,8 +8,8 @@ export function Projects() {
       <div className="container">
         <SectionHeader
           eyebrow="Projects"
-          title="Selected systems and development work."
-          description="Use the arrows to review my main projects quickly. Each slide highlights the purpose, technologies, and role-readiness value of the work."
+          title="Systems and projects I worked on."
+          description="Use the arrows to browse the main systems I built or contributed to, including the tools used and what each project was made for."
         />
 
         <ProjectShowcase items={projects} />

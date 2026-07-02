@@ -14,6 +14,7 @@ export function Contact() {
 
         <div className="contact-actions">
           <ButtonLink href={`mailto:${siteConfig.email}`}>Email Me <Icon name="mail" /></ButtonLink>
+          <ButtonLink href={siteConfig.resumeUrl} variant="secondary">Resume <Icon name="download" /></ButtonLink>
           <ButtonLink href={siteConfig.githubUrl} variant="secondary">GitHub <Icon name="code" /></ButtonLink>
           <ButtonLink href={siteConfig.linkedInUrl} variant="ghost">LinkedIn <Icon name="arrow" /></ButtonLink>
         </div>

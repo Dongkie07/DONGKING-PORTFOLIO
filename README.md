@@ -1,6 +1,6 @@
 # Dongking Signature Portfolio
 
-A future-ready React + Vite portfolio for a technology professional. The design is built to stay clean even when more projects, certificates, seminars, competitions, awards, and gallery items are added later.
+A React + Vite portfolio for Romel Cadungon. The project is organized so projects, certificates, seminars, awards, and gallery items can be added without changing the main page structure.
 
 ## Run locally
 
@@ -26,7 +26,7 @@ npm run build
 
 ## Add more projects
 
-Add a new object inside `src/data/projects.js`. The section automatically updates with filtering, balanced spacing, and responsive cards.
+Add a new object inside `src/data/projects.js`. The Projects section will use the same card layout, spacing, and responsive behavior.
 
 ## Add more certificates or proof
 
@@ -50,9 +50,9 @@ This version adds the uploaded capstone and certificate evidence in the most por
 
 - `Projects` now prioritizes **Restack Vulnerability Scanner** as a deployed and exhibited cybersecurity capstone.
 - New `Capstone` section highlights booth documentation, deployment completion photo, and project exhibit certificate together.
-- `Achievements` now separates project recognition, technical learning, and professional growth.
+- `Achievements` now separates project recognition, technical learning, and student development activities.
 - `Trainings & Seminars` now lists the Cisco/DICT data certificates first, followed by non-technical student-development certificates.
-- `Portfolio Gallery` now contains all uploaded certificates/photos with categories: Capstone, Certificate, Training, and Professional Growth.
+- `Portfolio Gallery` now contains all uploaded certificates/photos with categories: Capstone, Certificate, Training, and Student Development.
 - Certificate PDFs were added under `public/certificates/`; enhanced web images were added under `public/images/portfolio/`.
 
 Run locally:

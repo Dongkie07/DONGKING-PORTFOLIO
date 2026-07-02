@@ -4,42 +4,42 @@ export const galleryItems = [
     category: 'Capstone',
     date: '2026',
     image: '/images/portfolio/restack-capstone-booth.jpg',
-    description: 'Project exhibit documentation showing the Restack booth setup, poster presentation, devices, and system demonstration materials.'
+    description: 'Project exhibit photo showing the Restack booth setup, poster presentation, devices, and demo materials.'
   },
   {
     title: 'Restack Deployment Completion Photo',
     category: 'Capstone',
     date: 'May 2026',
     image: '/images/portfolio/restack-deployment-team.jpg',
-    description: 'Deployment completion photo with the evaluator/user after the system presentation, deployment, and implementation activity.'
+    description: 'Deployment completion photo with the evaluator and user after the system presentation and implementation activity.'
   },
   {
     title: 'Restack Final Defense',
     category: 'Defense Milestone',
     date: 'Capstone Defense',
     image: '/images/portfolio/restack-final-defense.jpg',
-    description: 'Final defense documentation for the completed Restack capstone system with panel/adviser presence.'
+    description: 'Final defense photo for the completed Restack capstone system with the panel and adviser present.'
   },
   {
     title: 'Restack Pre-Deployment Defense',
     category: 'Defense Milestone',
     date: 'Before Deployment',
     image: '/images/portfolio/restack-pre-deployment-defense.jpg',
-    description: 'Pre-deployment defense documentation showing the project before actual deployment and implementation.'
+    description: 'Pre-deployment defense photo showing the project before actual deployment and implementation.'
   },
   {
     title: 'Restack Outline Defense',
     category: 'Defense Milestone',
     date: 'Capstone Defense',
     image: '/images/portfolio/restack-outline-defense.jpg',
-    description: 'Outline defense documentation showing the system plan, workflow discussion, and analytics dashboard direction.'
+    description: 'Outline defense photo showing the system plan, workflow discussion, and analytics dashboard direction.'
   },
   {
     title: 'Restack Title Defense',
     category: 'Defense Milestone',
     date: 'Proposal Stage',
     image: '/images/portfolio/restack-title-defense.jpg',
-    description: 'Title defense documentation showing the early proposal stage and initial project direction.'
+    description: 'Title defense photo showing the early proposal stage and initial project direction.'
   },
   {
     title: 'Restack Project Exhibit Certificate',
@@ -78,16 +78,16 @@ export const galleryItems = [
   },
   {
     title: 'Mental Health Awareness Activity',
-    category: 'Professional Growth',
+    category: 'Student Development',
     date: 'October 15, 2025',
     image: '/images/portfolio/mental-health-awareness-certificate.jpg',
     description: 'Certificate of participation for a student development activity focused on connection, support, and well-being.'
   },
   {
     title: 'OJT Etiquette and Test Interpretation Talk',
-    category: 'Professional Growth',
+    category: 'Student Development',
     date: 'September 25, 2025',
     image: '/images/portfolio/ojt-etiquette-certificate.jpg',
-    description: 'Certificate of participation for an OJT-focused seminar on etiquette, self-awareness, and internship readiness.'
+    description: 'Certificate of participation for an OJT seminar on etiquette, self-awareness, and internship readiness.'
   }
 ];
