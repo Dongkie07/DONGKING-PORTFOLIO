@@ -13,7 +13,6 @@ export function Hero() {
 
       <div className="container hero-grid">
         <div className="hero-copy" data-reveal>
-          <div className="status-chip"><Icon name="spark" /> {siteConfig.professionalNote}</div>
           <p className="eyebrow">{siteConfig.heroEyebrow}</p>
           <h1>{siteConfig.heroHeadline}</h1>
           <p className="hero-description">{siteConfig.heroDescription}</p>

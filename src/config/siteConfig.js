@@ -8,7 +8,6 @@ export const siteConfig = {
   linkedInUrl: 'https://www.linkedin.com/in/romel-cadungon-126446362',
   resumeUrl: '/resume.pdf',
   profileImage: '/images/profile.png',
-  professionalNote: 'Information Technology Portfolio',
   heroEyebrow: 'My Portfolio',
   heroHeadline: 'Building secure, practical, and data-driven digital solutions.',
   heroDescription:
