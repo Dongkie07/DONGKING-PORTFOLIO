@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: 'Romel C. Cadungon',
   nickname: 'Romel',
-  role: 'Information Technology Graduate • System Developer • Data Analytics Learner',
+  role: 'Information Technology Graduate • System Developer • Data Analytics • Administrative Support',
   location: 'Panabo City, Davao del Norte, Philippines',
   email: 'cadungonromel@gmail.com',
   githubUrl: 'https://github.com/Dongkie07',
