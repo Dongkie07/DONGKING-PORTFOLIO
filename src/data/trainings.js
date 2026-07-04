@@ -1,5 +1,16 @@
 export const trainings = [
   {
+    title: 'IT Customer Support Basics',
+    organizer: 'DICT-ITU DTC Initiative through Cisco Networking Academy',
+    date: 'July 4, 2026',
+    description:
+      'Completed Cisco Networking Academy training on customer support basics, strengthening my foundation in IT support, service communication, troubleshooting, and user assistance.',
+    credential: 'Cisco Networking Academy Certificate and Verified Digital Badge',
+    certificateLink: '/certificates/it-customer-support-basics.pdf',
+    badgeImage: '/images/portfolio/it-customer-support-basics-badge.png',
+    badgeLink: 'https://www.credly.com/badges/2f251589-e11b-470d-931c-729698902a8d/public_url'
+  },
+  {
     title: 'Data Science Essentials with Python',
     organizer: 'DICT-ITU DTC Initiative through Cisco Networking Academy',
     date: 'May 5, 2026',

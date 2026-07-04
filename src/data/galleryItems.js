@@ -57,6 +57,16 @@ export const galleryItems = [
     link: '/certificates/restack-completion.pdf'
   },
   {
+    title: 'IT Customer Support Basics',
+    category: 'Training',
+    date: 'July 4, 2026',
+    image: '/images/portfolio/it-customer-support-basics-certificate.jpg',
+    badgeImage: '/images/portfolio/it-customer-support-basics-badge.png',
+    description: 'Cisco Networking Academy credential earned through the DICT-ITU DTC Initiative for completing IT Customer Support Basics.',
+    link: '/certificates/it-customer-support-basics.pdf',
+    badgeLink: 'https://www.credly.com/badges/2f251589-e11b-470d-931c-729698902a8d/public_url'
+  },
+  {
     title: 'Data Science Essentials with Python',
     category: 'Training',
     date: 'May 5, 2026',

@@ -1,13 +1,14 @@
 export const siteConfig = {
   name: 'Romel C. Cadungon',
   nickname: 'Romel',
-  role: 'Information Technology Graduate • System Developer • Data Analytics • Administrative Support',
+  role: 'Information Technology Graduate • System Developer • Data Analytics Learner',
   location: 'Panabo City, Davao del Norte, Philippines',
   email: 'cadungonromel@gmail.com',
   githubUrl: 'https://github.com/Dongkie07',
   linkedInUrl: 'https://www.linkedin.com/in/romel-cadungon-126446362',
   resumeUrl: '/resume.pdf',
   profileImage: '/images/profile.png',
+  professionalNote: 'Information Technology Portfolio',
   heroEyebrow: 'My Portfolio',
   heroHeadline: 'Building secure, practical, and data-driven digital solutions.',
   heroDescription:
@@ -16,7 +17,7 @@ export const siteConfig = {
   heroProofPoints: [
     { value: '3+ yrs', label: 'Remote admin work' },
     { value: '486 hrs', label: 'IPPDD IT internship' },
-    { value: '2', label: 'Cisco data credentials' }
+    { value: '3', label: 'Cisco verified credentials' }
   ],
   navigationLinks: [
     { label: 'About', href: '#about' },

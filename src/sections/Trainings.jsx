@@ -9,7 +9,7 @@ export function Trainings() {
         <SectionHeader
           eyebrow="Credentials & Training"
           title="Certificates and training I completed."
-          description="Training and seminars that helped me build skills in data analytics, data science, workplace readiness, and communication."
+          description="Training and seminars that helped me build skills in IT customer support, data analytics, data science, workplace readiness, and communication."
         />
 
         <div className="timeline-grid adaptive-grid">

@@ -21,6 +21,13 @@ export const achievements = [
     reference: 'Capstone defense documentation, 2026'
   },
   {
+    title: 'IT Customer Support Basics',
+    type: 'Verified IT Support Credential',
+    description:
+      'Completed Cisco Networking Academy training through the DICT-ITU DTC Initiative, strengthening my foundation in IT customer support, troubleshooting, and service communication.',
+    reference: 'Cisco Networking Academy certificate and badge, July 4, 2026'
+  },
+  {
     title: 'Data Analytics Essentials',
     type: 'Verified Technical Credential',
     description:

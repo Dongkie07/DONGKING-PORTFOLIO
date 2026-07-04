@@ -11,8 +11,8 @@ const workspaceModes = [
   {
     label: 'Data',
     title: 'Dashboards & reports',
-    metric: '2 certs',
-    detail: 'Spreadsheet tracking, Looker Studio dashboards, KPI presentation support, and data cleanup.',
+    metric: '3 certs',
+    detail: 'Cisco credentials, spreadsheet tracking, Looker Studio dashboards, KPI reports, and data cleanup.',
     command: 'build --dashboard --kpi --insights'
   },
   {
